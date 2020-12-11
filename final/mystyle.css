@@ -1,0 +1,158 @@
+@import-url "https://fonts.googleapis.com/css?family=Questrial";
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100px;
+  height: 400px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  background-color: black;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 300%;
+  font-family: Questrial;
+  font-size: 10pt;
+}
+
+/* unvisited link */
+.nav a:link {
+  color: #8e6905;
+}
+
+/* visited link */
+.nav a:visited {
+  color: #bfbcb3;
+}
+
+/* mouse over link */
+.nav a:hover,{
+  color: #bfbcb3;
+}
+
+.title{
+  width: 1280px;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  overflow-y: hidden;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Questrial;
+  font-size: 30pt;
+  color: #8e6905;
+}
+
+.container{
+  width: 12800px;
+  height: 800px;
+  background-color: black;
+}
+
+.home{
+  width:1280px;
+  height: 800px;
+  float: left;
+}
+
+.statement{
+  width:1280px;
+  height: 800px;
+  float: left;
+}
+
+.statement-text{
+  width: 640px;
+  height: 400px;
+  font-family: questrial;
+  font-size: 12pt;
+  color: #8e6905;
+  margin: auto;
+  padding: 320px;
+}
+
+.gallery{
+  width: 1180px;
+  height: 650px;
+  padding-left: 100px;
+  margin-top: 80px;
+  border: 3px solid green;
+}
+
+.writer-gallery{
+  width:1280px;
+  height: 800px;
+  float: left;
+}
+
+.writer-title{
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.writer-poem{
+  width:1280px;
+  height: 800px;
+  float: left;
+  padding-top: 95px;
+  border: 3px solid red;
+}
+
+.music-gallery{
+  width:1280px;
+  height: 800px;
+  float: left;
+}
+
+.music-song{
+  width:1280px;
+  height: 800px;
+  float: left;
+}
+
+.art-gallery{
+  width:1280px;
+  height: 800px;
+  border: 3px solid yellow;
+  float: left;
+}
+
+.art-essay{
+  width:1280px;
+  height: 800px;
+  border: 3px solid yellow;
+  float: left;
+}
+
+.film-gallery{
+  width:1280px;
+  height: 800px;
+  border: 3px solid pink;
+  float: left;
+}
+
+.film-clip{
+  width:1280px;
+  height: 800px;
+  float: left;
+}
+
+/* staggered gallery */
+table {
+  border-collapse: collapse;
+  width: 1180px;
+  height: 650px
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
